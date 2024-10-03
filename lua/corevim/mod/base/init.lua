@@ -1,11 +1,10 @@
 ---@class corevim.Base
 local M = {}
 
----@module "corevim.mod.base.setup"
-local _setup
-require("corevim.mod.base.setup")
+---@module "corevim.mod.base.config"
+local _config = require("corevim.mod.base.config")
 
-M.config = _setup.config
+M.config = _config.config
 
 M.package = {
   name = "corevim.base",
