@@ -1,0 +1,15 @@
+return {
+  _all = {},
+  default = {
+    tags = {
+      "tests",
+    },
+    output = "htest",
+    verbose = true,
+    ROOT = { "spec/tests" },
+  },
+  tests = {
+    verbose = true,
+    ROOT = { "spec/tests" },
+  },
+}
